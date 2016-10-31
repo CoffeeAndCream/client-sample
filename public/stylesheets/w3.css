@@ -14,34 +14,37 @@ background-color:#313131;
 overflow:auto
 }
 img#close {
-position:absolute;
-right:-14px;
-top:-14px;
-cursor:pointer;
-height: 10px;
-width: 10px
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  width: 30px;
 }
 div#popupContact {
 position:absolute;
 left:50%;
 top:17%;
 margin-left:-202px;
-font-family:'Raleway',sans-serif
+font-family:'Raleway',sans-serif;
+z-index: 1;
 }
 form {
-max-width:300px;
-min-width:250px;
-padding:10px 50px;
-border:2px solid gray;
-border-radius:10px;
-font-family:raleway;
-background-color:#fff
+  max-width: 500px;
+  min-width: 250px;
+  padding: 10px 50px;
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  font-family: raleway;
+  background-color: #fff;
 }
 p {
 margin-top:30px
 }
 h2 {
-background-color:#FEFFED;
+background-color:#ffffff;
 padding:20px 35px;
 margin:-10px -50px;
 text-align:center;
@@ -62,46 +65,32 @@ font-size:16px;
 font-family:raleway
 }
 #name {
-background-image:url(../images/person-icon.jpg);
+background-image:url(/images/person-icon.jpg);
 background-repeat:no-repeat;
 background-position:5px 7px;
 height: 10px;
 width: 10px
 }
 #email {
-background-image:url(../images/email-icon.png);
+background-image:url(/images/email-icon.png);
 background-repeat:no-repeat;
 background-position:5px 7px;
 height: 10px;
 width: 10px
 }
-textarea {
-background-image:url(../images/msg.png);
-background-repeat:no-repeat;
-background-position:5px 7px;
-width:82%;
-height:95px;
-padding:10px;
-resize:none;
-margin-top:30px;
-border:1px solid #ccc;
-padding-left:40px;
-font-size:16px;
-font-family:raleway;
-margin-bottom:30px
-}
 #submit {
-text-decoration:none;
-width:100%;
-text-align:center;
-display:block;
-background-color:#FFBC00;
-color:#fff;
-border:1px solid #FFCB00;
-padding:10px 0;
-font-size:20px;
-cursor:pointer;
-border-radius:5px
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  display: block;
+  background-color: #353535;
+  color: #fff;
+  border: 1px solid #000000;
+  padding: 10px 0;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
 }
 span {
 color:red;
