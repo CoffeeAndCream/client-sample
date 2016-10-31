@@ -4,8 +4,8 @@ CSS settings for HTML div Exact Center
 ------------------------------------------------*/
 .center-form-inline{
   display:inline-block;
-  margin-left: 50%;
-  margin-right: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 .amazonbutton {
 -moz-box-shadow:inset 0px 1px 0px 0px #f9eacf;
