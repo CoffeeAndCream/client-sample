@@ -101,9 +101,10 @@ top:1px;
    color: #ffffff;
    }
 
-.logo-height{
-  height:10px;
+logo-height{
+  height: 50px;
   width: auto;
+  padding-bottom: 10px;
 }
 #abc {
 width:100%;
