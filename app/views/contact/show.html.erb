@@ -19,23 +19,25 @@
     </div>
   </div>
 </header>
-
-<div class="w3-row">
+<br>
+<div class="w3-center">
   <div class="w3-col w3-container m2 w3-red"><p>Fill out the form to contact us!</p></div>
+    <%= form_for :contact_form, html: { class: 'w3-container' }, url: '/contact' do |f| %>
+      <%= f.text_field :name, class: "w3-input", type: "text", :required => true, help: "Must be at least 6 characters long"  %>
+      <%= f.label :name, 'name', class: "w3-label w3-validate" %>
+
+      <%= f.text_field :email, class: "w3-input", type: "email", :required => true %>
+      <%= f.label :email, 'email', class: "w3-label w3-validate" %>
+
+      <%= f.text_field :comments, class: "w3-input", type: "text", :required => true %>
+      <%= f.label :comments, 'comments', class: "w3-label w3-validate" %>
+    </br>
+    </br>
+    <%= f.submit "Submit" %>
+    <% end %>
+    <br>
+    <br>
 </div>
-  <%= form_for :contact_form, html: { class: 'w3-container' }, url: '/contact' do |f| %>
-    <%= f.text_field :name, class: "w3-input", type: "text", :required => true, help: "Must be at least 6 characters long"  %>
-    <%= f.label :name, 'name', class: "w3-label w3-validate" %>
-
-    <%= f.text_field :email, class: "w3-input", type: "email", :required => true %>
-    <%= f.label :email, 'email', class: "w3-label w3-validate" %>
-
-    <%= f.text_field :comments, class: "w3-input", type: "text", :required => false %>
-    <%= f.label :comments, 'comments', class: "w3-label w3-validate" %>
-  </br>
-  </br>
-  <%= f.submit "Submit" %>
-  <% end %>
 <!--
 <hr>
 <div class="w3-center">
