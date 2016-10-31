@@ -54,27 +54,27 @@ position:relative;
 top:1px;
 }
 .shopifybutton {
-   border: 1px solid #000000;
-   background: #00f24d;
-   background: -webkit-gradient(linear, left top, left bottom, from(#0d9900), to(#00f24d));
-   background: -webkit-linear-gradient(top, #0d9900, #00f24d);
-   background: -moz-linear-gradient(top, #0d9900, #00f24d);
-   background: -ms-linear-gradient(top, #0d9900, #00f24d);
-   background: -o-linear-gradient(top, #0d9900, #00f24d);
-   background-image: -ms-linear-gradient(top, #0d9900 0%, #00f24d 100%);
-   padding: 10px 20px;
-   -webkit-border-radius: 9px;
-   -moz-border-radius: 9px;
-   border-radius: 9px;
-   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
-   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
-   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
-   text-shadow: #000000 0 1px 0;
-   color: #ffffff;
-   font-size: 18px;
-   font-family: helvetica, serif;
-   text-decoration: none;
-   vertical-align: middle;
+  border: .5px solid #0c8601;
+  background: #00b138;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0fb300), to(#009a31));
+  background: -webkit-linear-gradient(top, #0c8601, #00c73f);
+  background: -moz-linear-gradient(top, #0d9900, #00f24d);
+  background: -ms-linear-gradient(top, #0d9900, #00f24d);
+  background: -o-linear-gradient(top, #0d9900, #00f24d);
+  background-image: -ms-linear-gradient(top, #0d9900 0%, #00f24d 100%);
+  padding: 5px 15px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+  -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+  box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+  text-shadow: #000000 0 1px 0;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: helvetica, serif;
+  text-decoration: none;
+  vertical-align: middle;
    }
 .shopifybutton:hover {
    border: 1px solid #000000;
@@ -100,6 +100,11 @@ top:1px;
    background-image: -ms-linear-gradient(top, #0c8a00 0%, #11cc00 100%);
    color: #ffffff;
    }
+
+.logo-height{
+  height:10px;
+  width: auto;
+}
 #abc {
 width:100%;
 height:100%;
