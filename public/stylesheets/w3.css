@@ -100,7 +100,7 @@ top:1px;
    color: #ffffff;
    }
 
-   img.resize{
+   #resize{
        width:20px; /* you can use % */
        height: auto;
    }
