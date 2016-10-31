@@ -5,19 +5,17 @@
 <link rel="stylesheet" href="/stylesheets/w3.css">
 <link rel="stylesheet" href="/stylesheets/w3-theme-black.css">
 <link rel="stylesheet" href="/stylesheets/font-awesome.min.css">
+<%= javascript_include_tag "/javascripts/popup-window.js" %>
 <body>
+  <div class="messagepop pop">
+    <form method="post" id="new_message" action="/messages">
+      <p><label for="email">Your email or name</label><input type="text" size="30" name="email" id="email" /></p>
+      <p><label for="body">Message</label><textarea rows="6" name="body" id="body" cols="35"></textarea></p>
+      <p><input type="submit" value="Send Message" name="commit" id="message_submit"/> or <a class="close" href="/">Cancel</a></p>
+    </form>
+  </div>
 
-<!-- Side Navigation -->
-<nav class="w3-sidenav w3-white w3-card-2 w3-animate-left" style="display:none" id="mySidenav">
-  <h1 class="w3-xxxlarge w3-text-teal">Side Navigation</h1>
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-xxxlarge w3-text-theme">Close <i class="fa fa-remove"></i></a>
-  <a href="javascript:void(0)">Link 1</a>
-  <a href="javascript:void(0)">Link 2</a>
-  <a href="javascript:void(0)">Link 3</a>
-  <a href="javascript:void(0)">Link 4</a>
-  <a href="javascript:void(0)">Link 5</a>
-</nav>
-
+  <a href="/contact" id="contact"></a>
 <!-- Header -->
 <header class="w3-container w3-theme w3-padding" id="myHeader">
   <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-opennav"></i>
