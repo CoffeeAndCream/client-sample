@@ -9,7 +9,9 @@ alert("Form Submitted Successfully...");
 }
 //Function To Display Popup
 function div_show() {
-  document.getElementById('abc').style.display = "block";
+  setTimeout(function(){
+    document.getElementById('abc').style.display = "block";
+   }, 2000);
 }
 //Function to Hide Popup
 function div_hide(){
