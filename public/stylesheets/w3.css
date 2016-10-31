@@ -2,7 +2,9 @@
 /*----------------------------------------------
 CSS settings for HTML div Exact Center
 ------------------------------------------------*/
-
+.whiskey-image{
+  z-index: 2;
+}
 .amazonbutton {
 -moz-box-shadow:inset 0px 1px 0px 0px #f9eacf;
 -webkit-box-shadow:inset 0px 1px 0px 0px #f9eacf;
