@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 <title>Client Sample</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/stylesheets/w3.css">
-<link rel="stylesheet" href="/stylesheets/w3-theme-black.css">
-<link rel="stylesheet" href="/stylesheets/font-awesome.min.css">
-<%= javascript_include_tag "/javascripts/popup-window.js" %>
+<head>
+  <%= yield :head %>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/stylesheets/w3.css">
+  <link rel="stylesheet" href="/stylesheets/w3-theme-black.css">
+  <link rel="stylesheet" href="/stylesheets/font-awesome.min.css">
+  <%= javascript_include_tag "/javascripts/popup-window.js" %>
+</head>
 <body>
   <div class="messagepop pop">
     <form method="post" id="new_message" action="/messages">
