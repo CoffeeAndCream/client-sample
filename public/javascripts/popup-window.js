@@ -11,7 +11,7 @@ alert("Form Submitted Successfully...");
 function div_show() {
   setTimeout(function(){
     document.getElementById('abc').style.display = "block";
-  }, 1000);
+  }, 2000);
 }
 //Function to Hide Popup
 function div_hide(){
