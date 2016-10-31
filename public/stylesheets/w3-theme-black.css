@@ -13,7 +13,11 @@
 .w3-theme-dark {color:#fff !important; background-color:#000000 !important}
 .w3-theme-action {color:#fff !important; background-color:#000000 !important}
 
-.w3-theme {color:#fff !important; background-color:#000000 !important}
+.w3-theme {color: #fff !important;
+    background-color: #000000 !important;
+    height: 450px;
+    background-image: url(http://www.publicdomainpictures.net/pictures/160000/velka/rusty-whiskey-barrel.jpg);
+}
 .w3-text-theme {color:#000000 !important}
 .w3-border-theme {border-color:#000000 !important}
 
