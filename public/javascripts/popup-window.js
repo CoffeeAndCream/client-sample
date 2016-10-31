@@ -3,8 +3,8 @@ function check_empty() {
 if (document.getElementById('name').value == "" || document.getElementById('email').value == "") {
   alert("Fill in all fields");
 } else {
-document.getElementById('form').submit();
-alert("Form Submitted Successfully...");
+  document.getElementById('form').submit();
+  alert("Form Submitted Successfully...");
 }
 }
 //Function To Display Popup
