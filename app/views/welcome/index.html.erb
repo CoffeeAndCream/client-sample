@@ -10,6 +10,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   <%= javascript_include_tag "/javascripts/popup-window.js" %>
 </head>
+<nav class="w3-sidenav w3-white w3-card-2 w3-animate-left" style="display:none" id="mySidenav">
+  <h1 class="w3-xxxlarge w3-text-teal">Pages</h1>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-xxxlarge w3-text-theme">Close <i class="fa fa-remove"></i></a>
+  <a href="/">Home</a>
+  <a href="/contact">Contact</a>
+</nav>
 <!-- Body Starts Here -->
 <body id="body" style="overflow:hidden;">
   <div id="abc">
@@ -131,41 +137,7 @@
 <hr>
 <whiskey-image><img src="/images/whiskey.png"></whiskey-image>
 <h2 class="w3-center">Product Specifications</h2>
-<div class="w3-padding w3-white">
-  <span onclick="this.parentElement.style.display='none'" class="w3-closebtn"><i class="fa fa-remove"></i></span>
-    <div class="w3-row w3-border">
-    <div class="w3-half w3-container w3-red w3-border">
-      <h1>Info</h1>
-    </div>
-    <div class="w3-half w3-container">
-    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-        </div>
-    </div>
-    <div class="w3-row w3-border">
-    <div class="w3-half w3-container w3-red w3-border">
-      <h1>Info</h1>
-    </div>
-    <div class="w3-half w3-container">
-    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-        </div>
-  </div>
-  <div class="w3-row w3-border">
-  <div class="w3-half w3-container w3-red w3-border">
-    <h1>Info</h1>
-  </div>
-  <div class="w3-half w3-container">
-    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-      </div>
-  </div>
-  <div class="w3-row w3-border">
-  <div class="w3-half w3-container w3-red w3-border">
-    <h1>Info</h1>
-  </div>
-  <div class="w3-half w3-container">
-    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-  </div>
-  </div>
-</div>
+
 <ul class="w3-navbar w3-light-grey">
   <a class="w3-btn testbtn" onclick="openCity(event, 'London')"></a>
 </ul>
