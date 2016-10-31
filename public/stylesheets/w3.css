@@ -11,7 +11,8 @@ left:0;
 display:none;
 position:fixed;
 background-color:#313131;
-overflow:auto
+overflow:auto;
+z-index: 2;
 }
 img#close {
   position: absolute;
@@ -23,7 +24,7 @@ div#popupContact {
 position:absolute;
 left:50%;
 top:17%;
-margin-left:-202px;
+margin-left: -245px;
 font-family:'Raleway',sans-serif;
 z-index: 1;
 }
@@ -351,7 +352,7 @@ input[type=checkbox].w3-check:disabled+.w3-validate,input[type=radio].w3-radio:d
 .w3-animate-right{position:relative;-webkit-animation:animateright 0.4s;animation:animateright 0.4s}
 @-webkit-keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
 @keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
-.w3-animate-bottom{position:relative;-webkit-animation:animatebottom 0.4s;animation:animatebottom 0.4s}
+.w3-animate-bottom{position:relative;-webkit-animation:animatebottom 0.4s;animation:animatebottom 0.4s;z-index: 1;}
 @-webkit-keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0px;opacity:1}}
 @keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
 .w3-animate-zoom {-webkit-animation:animatezoom 0.6s;animation:animatezoom 0.6s}
