@@ -9,15 +9,29 @@
   <link rel="stylesheet" href="/stylesheets/font-awesome.min.css">
   <%= javascript_include_tag "/javascripts/popup-window.js" %>
 </head>
-<body>
-  <div class="messagepop pop">
-    <form method="post" id="new_message" action="/messages">
-      <p><label for="email">Your email or name</label><input type="text" size="30" name="email" id="email" /></p>
-      <p><label for="body">Message</label><textarea rows="6" name="body" id="body" cols="35"></textarea></p>
-      <p><input type="submit" value="Send Message" name="commit" id="message_submit"/> or <a class="close" href="/">Cancel</a></p>
-    </form>
+<!-- Body Starts Here -->
+  <body id="body" style="overflow:hidden;">
+  <div id="abc">
+  <!-- Popup Div Starts Here -->
+  <div id="popupContact">
+  <!-- Contact Us Form -->
+  <form action="#" id="form" method="post" name="form">
+  <img id="close" src="images/3.png" onclick ="div_hide()">
+  <h2>Contact Us</h2>
+  <hr>
+  <input id="name" name="name" placeholder="Name" type="text">
+  <input id="email" name="email" placeholder="Email" type="text">
+  <textarea id="msg" name="message" placeholder="Message"></textarea>
+  <a href="javascript:%20check_empty()" id="submit">Send</a>
+  </form>
   </div>
-
+  <!-- Popup Div Ends Here -->
+  </div>
+  <!-- Display Popup Button -->
+  <h1>Click Button To Popup Form Using Javascript</h1>
+  <button id="popup" onclick="div_show()">Popup</button>
+  </body>
+<!-- Body Ends Here -->
   <a href="/contact" id="contact"></a>
 <!-- Header -->
 <header class="w3-container w3-theme w3-padding" id="myHeader">
